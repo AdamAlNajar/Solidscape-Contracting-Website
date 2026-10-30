@@ -55,14 +55,14 @@
       </div>
       <div class="contact-detail">
         <span>EMAIL</span>
-        <p>info@solidscape.com</p>
+        <p>contact@solidscape-uae.com</p>
       </div>
       <div class="contact-detail">
         <span>LOCATION</span>
         <p>Dubai, United Arab Emirates</p>
       </div>
       <p class="small-note">
-        Replace the sample phone number and email with your company's confirmed contact details before publishing.
+        We prefer if you contact us via whatsapp, but if you cannot use WhatsApp, you can use the form. 
       </p>
     </div>
 
@@ -72,30 +72,30 @@
       </h2>
       <p class="muted">Fields marked * are required.</p>
 
-      <label for="name">Full name *</label>
+      <label for="name" data-en="Full name" data-ar="الاسم الكامل">Full name *</label>
       <input id="name" name="name" autocomplete="name" required maxlength="120"
-             placeholder="Your name">
+             placeholder="Your name" data-en="Your name" data-ar="اسمك">
 
-      <label for="email">Email address *</label>
+      <label for="email" data-en="Email address" data-ar="عنوان البريد الإلكتروني">Email address *</label>
       <input id="email" name="email" type="email" autocomplete="email" required maxlength="254"
-             placeholder="you@example.com">
+             placeholder="you@example.com" data-en="Email" data-ar="البريد الإلكتروني">
 
-      <label for="phone">Phone number</label>
+      <label for="phone" data-en="Phone number" data-ar="رقم الهاتف">Phone number</label>
       <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40"
-             placeholder="+971">
+             placeholder="+971" data-en="Phone" data-ar="هاتف">
 
-      <label for="subject">What do you need help with? *</label>
+      <label for="subject" data-en="What do you need help with?" data-ar="ماذا تحتاج مساعدة؟">What do you need help with? *</label>
       <select id="subject" name="subject" required>
-        <option value="">Choose a topic</option>
+        <option value="" data-en="Choose a topic" data-ar="اختر موضوع">Choose a topic</option>
         <option>Full home renovation</option>
         <option>Kitchen or bathroom</option>
         <option>Interior improvements</option>
         <option>Other project</option>
       </select>
 
-      <label for="message">Tell us about your project *</label>
+      <label for="message" data-en="Tell us about your project" data-ar="أخبرنا عن مشروعك">Tell us about your project *</label>
       <textarea id="message" name="message" rows="5" required maxlength="4000"
-                placeholder="What would you like to renovate?"></textarea>
+                placeholder="What would you like to renovate?" data-en="What would you like to renovate?" data-ar="ماذا تريد تحسين؟"></textarea>
 
       <button class="button button-gold" type="submit">
         Send enquiry →
@@ -118,6 +118,15 @@
   </div>
   <small>© <span data-year></span> Solidscape Contracting LTD. All rights reserved.</small>
 </footer>
+
+<div class="social-stacked" style="position:fixed;right:12px;bottom:100px;z-index:10">
+  <a href="https://wa.me/+971508861666" class="social-icon whatsapp" target="_blank" aria-label="WhatsApp">
+    <img src="assets/whatsapp.webp" alt="WhatsApp">
+  </a>
+  <a href="https://www.instagram.com/solidscape.dubai" class="social-icon instagram" target="_blank" aria-label="Instagram">
+    <img src="assets/instagram.webp" alt="Instagram">
+  </a>
+</div>
 
 <a class="floating-contact" href="contactus.html">Let's talk</a>
 
