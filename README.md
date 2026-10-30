@@ -1,11 +1,12 @@
 # Solidscape Contracting LTD website
 
-A responsive four-page starter website based on your sitemap:
+A responsive four-page starter website for Solidscape Contracting aiming to replace the current website:
 - `index.html` — Home
 - `about.html` — About the company
 - `showcase.html` — Project showcase
 - `contactus.html` — Contact form
 
+## Technical Details
 
 ### Available environment variables
 
@@ -16,7 +17,7 @@ A responsive four-page starter website based on your sitemap:
 | `EMAIL_PORT` | `587` | SMTP port |
 | `EMAIL_USER` | - | SMTP username (email address) |
 | `EMAIL_PASS` | - | SMTP password or app-specific password |
-| `EMAIL_TO` | `info@solidscape.com` | Recipient email address for form submissions |
+| `EMAIL_TO` | `contact@solidscape-uae.com` | Recipient email address for form submissions |
 
 
 ## Testing
