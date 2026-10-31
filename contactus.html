@@ -16,11 +16,10 @@
   </a>
   <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
   <nav class="navbar" aria-label="Main navigation">
-    <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
-    <a href="about.html" data-en="About Us" data-ar="من نحن">About Us</a>
-    <a href="showcase.html" data-en="Our Work" data-ar="أعمالنا">Showcase of Our Work</a>
-    <a class="active" href="contactus.html" data-en="Contact" data-ar="اتصل بنا">Contact us</a>
-    <button class="language-toggle" type="button">EN / AR</button>
+    <a href="index.html" data-en="Home">Home</a>
+    <a href="about.html" data-en="About Us">About Us</a>
+    <a href="showcase.html" data-en="Our Work">Showcase of Our Work</a>
+    <a class="active" href="contactus.html" data-en="Contact">Contact us</a>
   </nav>
 </header>
 
@@ -28,30 +27,21 @@
   <!-- Page hero: main heading and intro text -->
   <section class="page-hero">
     <p class="eyebrow">LET'S TALK</p>
-    <h1 data-en="Contact Solidscape" data-ar="تواصل مع سوليدسكيب">
-      Contact Solidscape
-    </h1>
-    <p data-en="Have a question or ready to start planning? Tell us a little about your project and our team can follow up."
-       data-ar="هل لديك سؤال أو ترغب في بدء التخطيط؟ أخبرنا قليلاً عن Projektك وسيتواصل معك فريقنا">
-      Have a question or ready to start planning? Tell us a little about your project and our team can follow up.
-    </p>
+    <h1>Contact Solidscape</h1>
+    <p>Have a question or ready to start planning? Tell us a little about your project and our team can follow up.</p>
   </section>
 
   <!-- Contact layout: details on left, form on right -->
   <section class="contact-layout">
     <div class="contact-details">
       <p class="eyebrow">CONTACT INFORMATION</p>
-      <h2 data-en="We'd like to hear from you." data-ar="يسعدنا التواصل معك">
-        We'd like to hear from you.
-      </h2>
-      <p class="muted" data-en="Share your plans, questions or ideas. We'll use the details you provide to respond to your enquiry."
-         data-ar="شاركنا خططك أو أسئلتك أو أفكارك. سنستخدم التفاصيل التي تقدمها للرد على استفسارك">
-        Share your plans, questions or ideas. We'll use the details you provide to respond to your enquiry.
-      </p>
+      <h2>We'd like to hear from you.</h2>
+      <p class="muted">Share your plans, questions or ideas. We'll use the details you provide to respond to your enquiry.</p>
 
       <div class="contact-detail">
         <span>PHONE</span>
         <p>+971 508861666</p>
+        <p>+971 544464565</p>
       </div>
       <div class="contact-detail">
         <span>EMAIL</span>
@@ -62,40 +52,34 @@
         <p>Dubai, United Arab Emirates</p>
       </div>
       <p class="small-note">
-        We prefer if you contact us via whatsapp, but if you cannot use WhatsApp, you can use the form. 
+        We prefer if you contact us via whatsapp, but if you cannot use WhatsApp, you can use the form and we will get back asap.
       </p>
     </div>
 
     <form class="contact-form" id="contact-form">
-      <h2 data-en="Send us a message" data-ar="أرسل لنا رسالة">
-        Send us a message
-      </h2>
+      <h2>Send us a message</h2>
       <p class="muted">Fields marked * are required.</p>
 
-      <label for="name" data-en="Full name" data-ar="الاسم الكامل">Full name *</label>
-      <input id="name" name="name" autocomplete="name" required maxlength="120"
-             placeholder="Your name" data-en="Your name" data-ar="اسمك">
+      <label for="name" data-en="Full name">Full name *</label>
+      <input id="name" name="name" autocomplete="name" required maxlength="120" placeholder="Your name" data-en="Your name">
 
-      <label for="email" data-en="Email address" data-ar="عنوان البريد الإلكتروني">Email address *</label>
-      <input id="email" name="email" type="email" autocomplete="email" required maxlength="254"
-             placeholder="you@example.com" data-en="Email" data-ar="البريد الإلكتروني">
+      <label for="email" data-en="Email address">Email address *</label>
+      <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com" data-en="Email">
 
-      <label for="phone" data-en="Phone number" data-ar="رقم الهاتف">Phone number</label>
-      <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40"
-             placeholder="+971" data-en="Phone" data-ar="هاتف">
+      <label for="phone" data-en="Phone number">Phone number</label>
+      <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40" placeholder="+971" data-en="Phone">
 
-      <label for="subject" data-en="What do you need help with?" data-ar="ماذا تحتاج مساعدة؟">What do you need help with? *</label>
+      <label for="subject" data-en="What do you need help with?">What do you need help with? *</label>
       <select id="subject" name="subject" required>
-        <option value="" data-en="Choose a topic" data-ar="اختر موضوع">Choose a topic</option>
-        <option>Full home renovation</option>
-        <option>Kitchen or bathroom</option>
-        <option>Interior improvements</option>
-        <option>Other project</option>
+        <option value="" data-en="Choose a topic">Choose a topic</option>
+        <option data-en="Full home renovation">Full home renovation</option>
+        <option data-en="Kitchen or bathroom">Kitchen or bathroom</option>
+        <option data-en="Interior improvements">Interior improvements</option>
+        <option data-en="Other project">Other project</option>
       </select>
 
-      <label for="message" data-en="Tell us about your project" data-ar="أخبرنا عن مشروعك">Tell us about your project *</label>
-      <textarea id="message" name="message" rows="5" required maxlength="4000"
-                placeholder="What would you like to renovate?" data-en="What would you like to renovate?" data-ar="ماذا تريد تحسين؟"></textarea>
+      <label for="message" data-en="Tell us about your project">Tell us about your project *</label>
+      <textarea id="message" name="message" rows="5" required maxlength="4000" placeholder="What would you like to renovate?" data-en="What would you like to renovate?"></textarea>
 
       <button class="button button-gold" type="submit">
         Send enquiry →
@@ -109,7 +93,7 @@
 </main>
 
 <footer class="site-footer">
-  <a href="index.html" class="footer-brand">SOLIDSCAPE</a>
+  <a href="index.html" class="footer-brand">SOLIDSCALE</a>
   <p>Solid solutions, endless possibilities.</p>
   <div class="footer-links">
     <a href="about.html">About Us</a>

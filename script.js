@@ -11,29 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Load saved language preference from localStorage, default to English
-  let language = localStorage.getItem('app-language') === 'ar' ? 'ar' : 'en';
-
-  document.querySelectorAll('.language-toggle').forEach(button => {
-    button.addEventListener('click', () => {
-      language = language === 'en' ? 'ar' : 'en';
-      document.documentElement.lang = language;
-      document.body.classList.toggle('rtl', language === 'ar');
-      localStorage.setItem('app-language', language);
-      document.querySelectorAll('[data-en][data-ar]').forEach(el => {
-        el.textContent = el.dataset[language];
-      });
-      document.querySelectorAll('.language-toggle').forEach(btn => {
-        btn.textContent = language === 'en' ? 'EN / AR' : 'AR / EN';
-      });
-    });
-  });
-
-  // Initialize language on page load
-  document.documentElement.lang = language;
-  document.body.classList.toggle('rtl', language === 'ar');
-
-  const form = document.querySelector('#contact-form');
+    const form = document.querySelector('#contact-form');
   if (form) {
     form.addEventListener('submit', async event => {
       // Client-side validation
